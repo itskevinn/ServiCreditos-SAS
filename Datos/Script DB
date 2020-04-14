@@ -1,0 +1,20 @@
+USE [ServiCreditos]
+GO
+
+/****** Object:  Table [dbo].[prestamos]    Script Date: 14/04/2020 1:15:04 p.m. ******/
+SET ANSI_NULLS ON
+GO
+
+SET QUOTED_IDENTIFIER ON
+GO
+
+CREATE TABLE [dbo].[prestamos](
+	[Id] [varchar](50) NULL,
+	[Nombre] [varchar](50) NULL,
+	[CapIni] [decimal](18, 0) NULL,
+	[TasaInt] [float] NULL,
+	[Tiempo] [int] NULL,
+	[CapFin] [decimal](18, 0) NULL
+) ON [PRIMARY]
+GO
+
