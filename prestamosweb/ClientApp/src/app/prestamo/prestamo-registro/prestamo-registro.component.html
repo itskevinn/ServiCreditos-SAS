@@ -18,11 +18,11 @@
         </div>
         <div class="form-group">
           <label>Tasa de Interés</label>
-          <input type="number" name="tasaInteres" [(ngModel)]="prestamo.tasaInteres" class="form-control" />
+          <input type="number" name="tasaInteres" [(ngModel)]="prestamo.tasaInteres" class="form-control" placeholder="Tasa de interés anual"/>
         </div>
         <div class="form-group">
-          <label>Tiempo</label>
-          <input type="number" name="tiempo" [(ngModel)]="prestamo.tiempo" class="form-control" />
+          <label>Plazo de pago</label>
+          <input type="number" name="tiempo" [(ngModel)]="prestamo.tiempo" class="form-control" placeholder="Tiempo en años para pagar el préstamo"/>
         </div>
         <div class="text-center">
           <button class="btn mr-1 btn-warning" (click)="registrar()">Registrar prestamo</button>

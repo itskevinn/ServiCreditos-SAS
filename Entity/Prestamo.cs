@@ -11,12 +11,8 @@ namespace Entity
         public int Tiempo { get; set; }
         public decimal CapitalFinal { get; set; }  
         public void CalcularValorFinal(){
-             TasaInteres = (TasaInteres / 100);                
-                CapitalFinal = (CapitalInicial*(decimal)Math.Pow((1+TasaInteres),Tiempo));
-        }
-        public void CalcularMeses()
-        {
-            Tiempo = Tiempo * 12;            
+            TasaInteres = (TasaInteres / 100);                
+            CapitalFinal = (CapitalInicial*(decimal)Math.Pow((1+TasaInteres),Tiempo));
         }
     }
 }

@@ -5,8 +5,8 @@
       <th scope="col">Identidad</th>
       <th scope="col">Nombre </th>
       <th scope="col">Capital Inicial</th>
-      <th scope="col">Tasa de Interés</th>
-      <th scope="col">Tiempo</th>
+      <th scope="col">Tasa de Interés anual</th>
+      <th scope="col">Años</th>
       <th scope="col">Total a Pagar</th>
     </tr>
   </thead>
@@ -16,7 +16,7 @@
       <td>{{ prestamo.identidad }} </td>
       <td>{{ prestamo.nombre }}</td>
       <td>{{prestamo.capitalInicial }}</td>
-      <td>{{ prestamo.tasaInteres }}</td>
+      <td>{{ prestamo.tasaInteres | percent }}</td>
       <td>{{ prestamo.tiempo }}</td>
       <td>{{ prestamo.capitalFinal }}</td>
     </tr>
