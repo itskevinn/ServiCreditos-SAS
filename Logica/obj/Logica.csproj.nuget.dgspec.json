@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\Kevin\\Documents\\ProgramaciónWeb\\ServiCreditos SAS\\Logica\\Logica.csproj": {}
+    "C:\\Users\\Kevin\\Documents\\ProgramaciónWeb\\ServiCreditos SAS\\Logica\\Logica.csproj": {}
   },
   "projects": {
-    "c:\\Users\\Kevin\\Documents\\ProgramaciónWeb\\ServiCreditos SAS\\Datos\\Datos.csproj": {
+    "C:\\Users\\Kevin\\Documents\\ProgramaciónWeb\\ServiCreditos SAS\\Datos\\Datos.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\Kevin\\Documents\\ProgramaciónWeb\\ServiCreditos SAS\\Datos\\Datos.csproj",
+        "projectUniqueName": "C:\\Users\\Kevin\\Documents\\ProgramaciónWeb\\ServiCreditos SAS\\Datos\\Datos.csproj",
         "projectName": "Datos",
-        "projectPath": "c:\\Users\\Kevin\\Documents\\ProgramaciónWeb\\ServiCreditos SAS\\Datos\\Datos.csproj",
+        "projectPath": "C:\\Users\\Kevin\\Documents\\ProgramaciónWeb\\ServiCreditos SAS\\Datos\\Datos.csproj",
         "packagesPath": "C:\\Users\\Kevin\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\Kevin\\Documents\\ProgramaciónWeb\\ServiCreditos SAS\\Datos\\obj\\",
+        "outputPath": "C:\\Users\\Kevin\\Documents\\ProgramaciónWeb\\ServiCreditos SAS\\Datos\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Kevin\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -27,8 +27,8 @@
         "frameworks": {
           "netstandard2.0": {
             "projectReferences": {
-              "c:\\Users\\Kevin\\Documents\\ProgramaciónWeb\\ServiCreditos SAS\\Entity\\Entity.csproj": {
-                "projectPath": "c:\\Users\\Kevin\\Documents\\ProgramaciónWeb\\ServiCreditos SAS\\Entity\\Entity.csproj"
+              "C:\\Users\\Kevin\\Documents\\ProgramaciónWeb\\ServiCreditos SAS\\Entity\\Entity.csproj": {
+                "projectPath": "C:\\Users\\Kevin\\Documents\\ProgramaciónWeb\\ServiCreditos SAS\\Entity\\Entity.csproj"
               }
             }
           }
@@ -71,14 +71,14 @@
         }
       }
     },
-    "c:\\Users\\Kevin\\Documents\\ProgramaciónWeb\\ServiCreditos SAS\\Entity\\Entity.csproj": {
+    "C:\\Users\\Kevin\\Documents\\ProgramaciónWeb\\ServiCreditos SAS\\Entity\\Entity.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\Kevin\\Documents\\ProgramaciónWeb\\ServiCreditos SAS\\Entity\\Entity.csproj",
+        "projectUniqueName": "C:\\Users\\Kevin\\Documents\\ProgramaciónWeb\\ServiCreditos SAS\\Entity\\Entity.csproj",
         "projectName": "Entity",
-        "projectPath": "c:\\Users\\Kevin\\Documents\\ProgramaciónWeb\\ServiCreditos SAS\\Entity\\Entity.csproj",
+        "projectPath": "C:\\Users\\Kevin\\Documents\\ProgramaciónWeb\\ServiCreditos SAS\\Entity\\Entity.csproj",
         "packagesPath": "C:\\Users\\Kevin\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\Kevin\\Documents\\ProgramaciónWeb\\ServiCreditos SAS\\Entity\\obj\\",
+        "outputPath": "C:\\Users\\Kevin\\Documents\\ProgramaciónWeb\\ServiCreditos SAS\\Entity\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Kevin\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -126,14 +126,14 @@
         }
       }
     },
-    "c:\\Users\\Kevin\\Documents\\ProgramaciónWeb\\ServiCreditos SAS\\Logica\\Logica.csproj": {
+    "C:\\Users\\Kevin\\Documents\\ProgramaciónWeb\\ServiCreditos SAS\\Logica\\Logica.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\Kevin\\Documents\\ProgramaciónWeb\\ServiCreditos SAS\\Logica\\Logica.csproj",
+        "projectUniqueName": "C:\\Users\\Kevin\\Documents\\ProgramaciónWeb\\ServiCreditos SAS\\Logica\\Logica.csproj",
         "projectName": "Logica",
-        "projectPath": "c:\\Users\\Kevin\\Documents\\ProgramaciónWeb\\ServiCreditos SAS\\Logica\\Logica.csproj",
+        "projectPath": "C:\\Users\\Kevin\\Documents\\ProgramaciónWeb\\ServiCreditos SAS\\Logica\\Logica.csproj",
         "packagesPath": "C:\\Users\\Kevin\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\Kevin\\Documents\\ProgramaciónWeb\\ServiCreditos SAS\\Logica\\obj\\",
+        "outputPath": "C:\\Users\\Kevin\\Documents\\ProgramaciónWeb\\ServiCreditos SAS\\Logica\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Kevin\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -149,11 +149,11 @@
         "frameworks": {
           "netstandard2.0": {
             "projectReferences": {
-              "c:\\Users\\Kevin\\Documents\\ProgramaciónWeb\\ServiCreditos SAS\\Datos\\Datos.csproj": {
-                "projectPath": "c:\\Users\\Kevin\\Documents\\ProgramaciónWeb\\ServiCreditos SAS\\Datos\\Datos.csproj"
+              "C:\\Users\\Kevin\\Documents\\ProgramaciónWeb\\ServiCreditos SAS\\Datos\\Datos.csproj": {
+                "projectPath": "C:\\Users\\Kevin\\Documents\\ProgramaciónWeb\\ServiCreditos SAS\\Datos\\Datos.csproj"
               },
-              "c:\\Users\\Kevin\\Documents\\ProgramaciónWeb\\ServiCreditos SAS\\Entity\\Entity.csproj": {
-                "projectPath": "c:\\Users\\Kevin\\Documents\\ProgramaciónWeb\\ServiCreditos SAS\\Entity\\Entity.csproj"
+              "C:\\Users\\Kevin\\Documents\\ProgramaciónWeb\\ServiCreditos SAS\\Entity\\Entity.csproj": {
+                "projectPath": "C:\\Users\\Kevin\\Documents\\ProgramaciónWeb\\ServiCreditos SAS\\Entity\\Entity.csproj"
               }
             }
           }

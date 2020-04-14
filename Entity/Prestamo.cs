@@ -13,9 +13,14 @@ namespace Entity
         {
             get
             {
-                decimal tasaInteres = (this.TasaInteres/100);
-                return this.CapitalFinal * Decimal.Parse(Math.Pow((1 + Double.Parse(tasaInteres+"m")), Double.Parse(this.Tiempo + "M")) + "m");
+                decimal tasaInteres = 0;
+                tasaInteres = (this.TasaInteres / 100);
+                return this.CapitalFinal * Decimal.Parse(Math.Pow((1 + Double.Parse(tasaInteres + "m")), Double.Parse(this.Tiempo + "M")) + "m");
             }
+        }
+        public void CalcularMeses()
+        {
+            this.Tiempo = this.Tiempo * 12;            
         }
     }
 }

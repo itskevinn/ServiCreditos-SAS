@@ -3,6 +3,7 @@ import { HttpClient } from '@angular/common/http';
 import { Observable } from 'rxjs';
 import { Prestamo } from '../prestamo/models/prestamo';
 import { tap, catchError } from 'rxjs/operators';
+import { HandleHttpErrorService } from '../@base/handle-http-error.service';
 
 @Injectable({
   providedIn: 'root'
@@ -22,7 +23,7 @@ export class PrestamoService {
         catchError(this.handleErrorService.handleError<Prestamo[]>('Consultar Prestamo', null))
       );
   }
-  post(persona: Prestamo): Observable<Prestamo> {
+  post(prestamo: Prestamo): Observable<Prestamo> {
     return this.http.post<Prestamo>(this.urlBase + 'api/Prestamo', prestamo)
       .pipe(
         tap(_ => this.handleErrorService.log('Datos enviados')),
