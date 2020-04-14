@@ -9,10 +9,13 @@ namespace Entity
         public decimal CapitalInicial { get; set; }
         public decimal TasaInteres { get; set; }
         public decimal Tiempo { get; set; }
-        public decimal CapitalFinal { 
-            get{
-            return this.CapitalFinal * pow((1+this.TasaInteres),this.Tiempo);
-        } 
+        public decimal CapitalFinal
+        {
+            get
+            {
+                decimal tasaInteres = (this.TasaInteres/100);
+                return this.CapitalFinal * Decimal.Parse(Math.Pow((1 + Double.Parse(tasaInteres+"m")), Double.Parse(this.Tiempo + "M")) + "m");
+            }
         }
     }
 }

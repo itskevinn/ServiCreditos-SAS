@@ -1,0 +1,11 @@
+C:\Users\Kevin\Documents\ProgramaciónWeb\ServiCreditos SAS\Datos\bin\Debug\netstandard2.0\Datos.deps.json
+C:\Users\Kevin\Documents\ProgramaciónWeb\ServiCreditos SAS\Datos\bin\Debug\netstandard2.0\Datos.dll
+C:\Users\Kevin\Documents\ProgramaciónWeb\ServiCreditos SAS\Datos\bin\Debug\netstandard2.0\Datos.pdb
+C:\Users\Kevin\Documents\ProgramaciónWeb\ServiCreditos SAS\Datos\bin\Debug\netstandard2.0\Entity.dll
+C:\Users\Kevin\Documents\ProgramaciónWeb\ServiCreditos SAS\Datos\bin\Debug\netstandard2.0\Entity.pdb
+C:\Users\Kevin\Documents\ProgramaciónWeb\ServiCreditos SAS\Datos\obj\Debug\netstandard2.0\Datos.csprojAssemblyReference.cache
+C:\Users\Kevin\Documents\ProgramaciónWeb\ServiCreditos SAS\Datos\obj\Debug\netstandard2.0\Datos.AssemblyInfoInputs.cache
+C:\Users\Kevin\Documents\ProgramaciónWeb\ServiCreditos SAS\Datos\obj\Debug\netstandard2.0\Datos.AssemblyInfo.cs
+C:\Users\Kevin\Documents\ProgramaciónWeb\ServiCreditos SAS\Datos\obj\Debug\netstandard2.0\Datos.csproj.CopyComplete
+C:\Users\Kevin\Documents\ProgramaciónWeb\ServiCreditos SAS\Datos\obj\Debug\netstandard2.0\Datos.dll
+C:\Users\Kevin\Documents\ProgramaciónWeb\ServiCreditos SAS\Datos\obj\Debug\netstandard2.0\Datos.pdb
