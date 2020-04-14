@@ -1,0 +1,34 @@
+<div class="container">
+  <div class="row">
+    <div class="col-md-6 offset-md-3">
+      <h2>Registro de Préstamos</h2>
+      <br>
+      <form>
+        <div class="form-group">
+          <label>Identidad</label>
+          <input type="text" name="identidad" [(ngModel)]="prestamo.identificacion" class="form-control" />
+        </div>
+        <div class="form-group">
+          <label>Nombre</label>
+          <input type="text" name="nombre" [(ngModel)]="prestamo.nombre" class="form-control" />
+        </div>
+        <div class="form-group">
+          <label>Capital Inicial</label>
+          <input type="number" name="capitaInicial" [(ngModel)]="prestamo.capitaInicial" class="form-control" />
+        </div>
+        <div class="form-group">
+          <label>Tasa de Interés</label>
+          <input type="number" name="tasaInteres" [(ngModel)]="prestamo.tasaInteres" class="form-control" />
+        </div>
+        <div class="form-group">
+          <label>Tiempo</label>
+          <input type="number" name="tiempo" [(ngModel)]="prestamo.tiempo" class="form-control" />
+        </div>
+        <div class="text-center">
+          <button class="btn mr-1 btn-warning" (click)="registar()">Register</button>
+          <button class="btn btn-light" type="reset">Cancel</button>
+        </div>
+      </form>
+    </div>
+  </div>
+</div>
