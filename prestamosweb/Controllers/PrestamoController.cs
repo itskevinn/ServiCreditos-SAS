@@ -21,7 +21,7 @@ namespace prestamosweb.Controllers
 
         // GET: api/Prestamo
         [HttpGet]
-        public IEnumerable<PrestamoViewModel> Get()
+        public IEnumerable<PrestamoViewModel> get()
         {
             var respuesta = _servicioDePrestamo.ConsultarPrestamos().Prestamos.Select(p => new PrestamoViewModel(p));
             return respuesta;
@@ -50,17 +50,6 @@ namespace prestamosweb.Controllers
                 Tiempo = prestamoInput.Tiempo,                
             };
             return prestamo;
-        }
-
-        [HttpGet("{identificacion}")]
-        public ActionResult<PrestamoViewModel> Get(string identificacion)
-        {            
-            var respuesta = _servicioDePrestamo.BuscarxId(identificacion);            
-            if (respuesta.Error)
-            {
-                return BadRequest(respuesta.Mensaje);
-            }
-            return Ok(respuesta.Prestamo);                     
-        }
+        }    
     }
 }

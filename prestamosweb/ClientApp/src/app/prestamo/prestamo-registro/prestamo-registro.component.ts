@@ -9,12 +9,12 @@ import { PrestamoService } from 'src/app/servicios/prestamo.service';
 })
 export class PrestamoRegistroComponent implements OnInit {
   prestamo: Prestamo;
-  constructor(private personaService: PrestamoService) { }
+  constructor(private prestamoService: PrestamoService) { }
   ngOnInit() {
     this.prestamo = new Prestamo();
   }
   registrar() {
-    this.personaService.post(this.prestamo).subscribe(p => {
+    this.prestamoService.post(this.prestamo).subscribe(p => {
       if (p != null) {
         alert('Prestamo registrado con éxito');
         this.prestamo = p;

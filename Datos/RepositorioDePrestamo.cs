@@ -18,13 +18,12 @@ namespace Datos
         {
             using (var comando = _conexión.CreateCommand())
             {
-                comando.CommandText = @"Insert Into prestamo (Id,Nombre,CapIni,TasaInt,Tiempo,CapFin)
-values (@Id, @Nombre, @CapitalInicial, @TasaInteres, @Tiempo, @CapitalFinal)";
-                comando.Parameters.AddWithValue("@Id", prestamo.Identidad);
-                comando.Parameters.AddWithValue("@Nombre", prestamo.Nombre);
+                comando.CommandText = @"Insert Into prestamos (Id, Nombre, CapIni, TasaInt, Tiempo, CapFin) values (@Identificacion, @NombreCliente, @CapitalInicial, @TasaInteres, @TiempoPago, @CapitalFinal)";
+                comando.Parameters.AddWithValue("@Identificacion", prestamo.Identidad);
+                comando.Parameters.AddWithValue("@NombreCliente", prestamo.Nombre);
                 comando.Parameters.AddWithValue("@CapitalInicial", prestamo.CapitalInicial);
                 comando.Parameters.AddWithValue("@TasaInteres", prestamo.TasaInteres);
-                comando.Parameters.AddWithValue("@Tiempo", prestamo.Tiempo);
+                comando.Parameters.AddWithValue("@TiempoPago", prestamo.Tiempo);
                 comando.Parameters.AddWithValue("@CapitalFinal", prestamo.CapitalFinal);
                 var filas = comando.ExecuteNonQuery();
             }
@@ -36,7 +35,7 @@ values (@Id, @Nombre, @CapitalInicial, @TasaInteres, @Tiempo, @CapitalFinal)";
             List<Prestamo> prestamos = new List<Prestamo>();
             using (var comando = _conexión.CreateCommand())
             {
-                comando.CommandText = "Select * from prestamo ";
+                comando.CommandText = "Select * from prestamos ";
                 lectorDeDatos = comando.ExecuteReader();
                 if (lectorDeDatos.HasRows)
                 {
@@ -57,8 +56,9 @@ values (@Id, @Nombre, @CapitalInicial, @TasaInteres, @Tiempo, @CapitalFinal)";
             prestamo.Identidad = (string)lectorDeDatos["Id"];
             prestamo.Nombre = (string)lectorDeDatos["Nombre"];
             prestamo.CapitalInicial = (decimal)lectorDeDatos["CapIni"];
-            prestamo.TasaInteres = (decimal)lectorDeDatos["TasaInt"];
-            prestamo.Tiempo = (decimal)lectorDeDatos["Tiempo"];
+            prestamo.TasaInteres = (double)lectorDeDatos["TasaInt"];
+            prestamo.Tiempo = (int)lectorDeDatos["Tiempo"];
+            prestamo.CapitalFinal = (decimal)lectorDeDatos["CapFin"];
             return prestamo;
         }
     }

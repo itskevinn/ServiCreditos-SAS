@@ -5,8 +5,8 @@ public class PrestamoInputModel
     public string Identidad { get; set; }
     public string Nombre { get; set; }
     public decimal CapitalInicial { get; set; }
-    public decimal TasaInteres { get; set; }
-    public decimal Tiempo { get; set; }
+    public double TasaInteres { get; set; }
+    public int Tiempo { get; set; }
 }
 public class PrestamoViewModel : PrestamoInputModel
 {

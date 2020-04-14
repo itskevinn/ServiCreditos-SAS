@@ -3,6 +3,6 @@ export class Prestamo {
     nombre: string;
     capitalInicial : number;
     tasaInteres : number;
-    tiempo : Date;
+    tiempo : number;
     capitalFinal: number;
 }

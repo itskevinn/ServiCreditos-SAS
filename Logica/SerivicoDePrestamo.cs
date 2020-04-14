@@ -20,6 +20,8 @@ namespace Logica
         {
             if (ValidarRegistro(prestamo.Identidad))
             {
+                prestamo.CalcularValorFinal();
+                prestamo.CalcularMeses();
                 try
                 {
                     _conexión.Abrir();
